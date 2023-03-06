@@ -14,8 +14,6 @@ class AddUser extends React.Component {
         }
     }
 
-
-
     render() {
         return (
             <form>
