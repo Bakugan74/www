@@ -8,7 +8,7 @@ class User extends React.Component {
             <div className="user">
                 <IoCloseCircleSharp className="delete-icon" />
                 <IoHammerSharp className="edit-icon" />
-                <h3>{this.user.firstname} {this.user.lastname}</h3>
+                <h3>{this.user.firstname} {this.user.lastname} {this.user.city}</h3>
                 <p>{this.user.bio}</p>
                 <b>{this.user.isHappy ? 'Счастлив 😜' : 'Не особо 😒'}</b>
             </div>

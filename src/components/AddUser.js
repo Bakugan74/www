@@ -9,6 +9,7 @@ class AddUser extends React.Component {
             firstname: "",
             lastname: "",
             bio: "",
+            city: "",
             age: 1,
             isHappy: false
         }
@@ -20,6 +21,7 @@ class AddUser extends React.Component {
                 <input placeholder="Имя" onChange={(e) => this.setState({ firstname: e.target.value })} />
                 <input placeholder="Фамилия" onChange={(e) => this.setState({ lastname: e.target.value })} />
                 <textarea placeholder="Биография" onChange={(e) => this.setState({ bio: e.target.value })} />
+                <input placeholder="Город" onChange={(e) => this.setState({ city: e.target.value })} />
                 <input placeholder="Возраст" onChange={(e) => this.setState({ age: e.target.value })} />
                 <label htmlFor="isHappy">Счастлив?</label>
                 <input type="checkbox" id="isHappy" onChange={(e) => this.setState({ isHappy: e.target.checked })} />
@@ -27,6 +29,7 @@ class AddUser extends React.Component {
                     firstname: this.state.firstname,
                     lastname: this.state.lastname,
                     bio: this.state.bio,
+                    city: this.state.city,
                     age: this.state.age,
                     isHappy: this.state.isHappy
                 })}>Добавить</button>

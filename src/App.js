@@ -15,6 +15,7 @@ class App extends React.Component {
                     firstname: 'Bob',
                     lastname: 'Marley',
                     bio: 'Lorem ipsum dolor sit amet consectetur, OSDIfjh oisdF ksDMF i',
+                    city: 'Moscow',
                     age: 40,
                     isHappey: true
                 },
@@ -23,6 +24,7 @@ class App extends React.Component {
                     firstname: 'John',
                     lastname: 'Doe',
                     bio: 'Lorem ipsum dolor sit amet consectetur, OSDIfjh josdnfosdnfo dsfk mn ,sdf sdf d',
+                    city: 'Novosibirsk',
                     age: 22,
                     isHappey: false
                 }
