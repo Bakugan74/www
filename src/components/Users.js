@@ -3,7 +3,6 @@ import User from "./User"
 
 
 class Users extends React.Component {
-
     render() {
         if (this.props.users.length > 0)
             return (<div>
@@ -17,5 +16,4 @@ class Users extends React.Component {
             </div>)
     }
 }
-
 export default Users

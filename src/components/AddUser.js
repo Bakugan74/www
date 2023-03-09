@@ -36,15 +36,12 @@ class AddUser extends React.Component {
                         age: this.state.age,
                         isHappy: this.state.isHappy
                     }
-                    if(this.props.user)   
+                    if (this.props.user)
                         this.userAdd.id = this.props.user.id
                     this.props.onAdd(this.userAdd)
                 }}>Добавить</button>
             </form>
         )
     }
-
-
 }
-
 export default AddUser
